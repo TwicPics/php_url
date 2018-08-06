@@ -43,7 +43,7 @@ php composer.phar require twicpics/url
 
 ## Usage
 
-`twicpics/url` exports a single class (`TwicPics/URL`) that will be autoloaded. Just create an instance of this class and you're good to go:
+`twicpics/url` exports a single class (`TwicPics\URL`) that will be autoloaded. Just create an instance of this class and you're good to go:
 
 ```php
 // Get the builder
