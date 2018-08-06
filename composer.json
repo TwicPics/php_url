@@ -1,0 +1,28 @@
+{
+    "authors": [
+        {
+            "name": "TwicPics",
+            "email": "hello@twic.pics",
+            "homepage": "https://www.twicpics.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "TwicPics\\": "lib/"
+        }
+    },
+    "description": "a library to build TwicPics URLs",
+    "homepage": "https://github.com/TwicPics/php_url",
+    "license": "MIT",
+    "name": "twicpics/url",
+    "readme": "README.md",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "require-dev": {
+        "php": ">=7.1.0",
+        "php-coveralls/php-coveralls": "2.1.0",
+        "phpunit/phpunit": "7.3.0",
+        "squizlabs/php_codesniffer": "3.3.1"
+    }
+}

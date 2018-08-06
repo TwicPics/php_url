@@ -1,0 +1,10 @@
+language: php
+php:
+    - 7.1
+    - 7.2
+install:
+    - travis_retry composer install --no-interaction --no-suggest
+script:
+    - ./vendor/bin/phpunit
+after-success:
+    - travis_retry ./vendor/bin/php-coveralls -v

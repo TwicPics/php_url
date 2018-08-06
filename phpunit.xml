@@ -1,0 +1,16 @@
+<phpunit bootstrap="vendor/autoload.php">
+    <testsuites>
+        <testsuite name="url">
+            <file>test/Base.php</file>
+            <file>test/Chaining.php</file>
+        </testsuite>
+    </testsuites>
+    <logging>
+        <log type="coverage-clover" target="coverage.xml"/>
+    </logging>
+    <filter>
+        <whitelist processUncoveredFilesFromWhitelist="true">
+            <directory suffix=".php">lib</directory>
+        </whitelist>
+    </filter>
+</phpunit>
