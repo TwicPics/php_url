@@ -20,11 +20,11 @@ $onePassUrl = $builder->cover("1:1")->resize(700)->src(SRC_URL)->url();
 // Pre-crop an image then apply different transformations to it
 $precrop = $builder->src(SRC_URL)->focus("25p", "71p")->crop(560, 280);
 $squareUrl = $precrop->cover("1:1")->url();
-$landscapeUrl = $precrop.cover("16:9").url();
+$landscapeUrl = $precrop->cover("16:9")->url();
 
 // Prepare manipulations to be applied to different sources
 $square = $builder->cover("1:1")->resize(300);
-$landscape = $builder.cover("1:1").resize(300);
+$landscape = $builder->cover("1:1")->resize(300);
 
 $squaredUrl = $square->src(SRC_URL)->url();
 $squaredPrecrop = $square->src($precrop)->url();
