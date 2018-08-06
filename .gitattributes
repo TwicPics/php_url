@@ -1,2 +1,3 @@
-/phpunit.xml export-ignore
 /test export-ignore
+/.* export-ignore
+/phpunit.xml export-ignore
