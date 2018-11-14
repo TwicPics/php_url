@@ -17,7 +17,7 @@
     "name": "twicpics/url",
     "readme": "README.md",
     "require": {
-        "php": ">=5.3.0"
+        "php": ">=5.6.0"
     },
     "require-dev": {
         "php": ">=7.1.0",
